@@ -49,7 +49,7 @@ This Python script automates the entire "Extract, Transform, Load" (ETL) process
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+git clone https://github.com/Ashi000/Sales_Data_Automation.git
     ```
 2.  **Install dependencies:**
     ```bash
