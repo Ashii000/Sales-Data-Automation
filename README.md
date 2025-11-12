@@ -93,4 +93,4 @@ This project is licensed under the **MIT License**.
 
 **Ashi**
 * **GitHub:** [@Ashi000](https://github.com/Ashi000)
-* **LinkedIn:** `(https://www.linkedin.com/in/ashiq-mari-5abb33277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)`
+* **LinkedIn:** [ashiq-mari-5abb33277](https://www.linkedin.com/in/ashiq-mari-5abb33277)
