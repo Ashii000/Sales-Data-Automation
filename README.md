@@ -117,7 +117,7 @@ This project is licensed under the **MIT License** — free for personal and com
 
 ## 👤 Author
 
-**Ashi Hussain**
+**Ashiq Hussain**
 
 * **GitHub:** [@Ashi000](https://github.com/Ashi000)
 * **LinkedIn:** [ashiq-mari-5abb33277](https://www.linkedin.com/in/ashiq-mari-5abb33277)
