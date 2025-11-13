@@ -1,96 +1,127 @@
 # 🚀 Sales Data Automation & Cleaning Project
 
-This project is a complete Python-based solution for cleaning, analyzing, and reporting on raw sales data. It automates the entire process, transforming a messy Excel file into a multi-sheet, professional report in seconds.
+This project provides a **Python-based automated solution** for cleaning, analyzing, and generating professional reports from raw sales data. It transforms disorganized Excel sheets into multi-sheet analytical reports within seconds.
 
-> **Project Goal:** To automate a manual data cleaning task that takes 2+ hours, reducing the processing time to less than 1 second. ⏱️
+> **Goal:** Automate a manual 2-hour data cleaning task and reduce processing time to under **1 second**. ⏱️
 
 ---
 
-## 📊 Project Showcase (Before vs. After)
+## 📊 Project Overview — *Before vs. After*
 
-Yeh project messy data ko ek clean, actionable report mein badalta hai.
+The script converts messy, inconsistent sales data into clean and actionable business reports.
 
-### Before: Raw, Messy Data
-(Yahan `raw_sales_data.xlsx` ka screenshot daalein)
-`[YOUR-SCREENSHOT-OF-RAW-DATA.png]`
+### Before: Raw, Unorganized Data
+
+`![Raw Data Before](before.png)`
+*(Example: raw_sales_data.xlsx — contains duplicates, missing values, and inconsistent formatting.)*
 
 ### After: Clean, Professional Report
-(Yahan `cleaned_sales_data.xlsx` mein 'Category Summary' sheet ka screenshot daalein)
-`[YOUR-SCREENSHOT-OF-CLEAN-REPORT.png]`
+
+`![Clean Report After](after.png)`
+*(Example: cleaned_sales_data.xlsx — includes summary sheets and validated data.)*
 
 ---
 
-## 📝 The Problem
-Manually cleaning sales data is slow, repetitive, and prone to errors. Data often contains duplicates, missing values, inconsistent formatting, and invalid entries, making analysis difficult.
+## 🧩 Problem Statement
 
-## 💡 The Solution
-This Python script automates the entire "Extract, Transform, Load" (ETL) process:
-1.  **Extract:** Loads data from a raw `.xlsx` file.
-2.  **Transform:** Performs a deep cleaning and validation process.
-3.  **Load:** Generates a final, clean multi-sheet Excel report and a text-based summary.
+Manual cleaning of sales data is time-consuming, repetitive, and error-prone. Issues such as duplicate entries, missing fields, inconsistent formats, and invalid amounts make it difficult to perform reliable analysis.
+
+---
+
+## 💡 Automated Solution
+
+The **Sales Data Automation Script** handles the complete **ETL (Extract, Transform, Load)** process:
+
+1. **Extract:** Reads data from a raw `.xlsx` file.
+2. **Transform:** Cleans, validates, and standardizes all data fields.
+3. **Load:** Outputs a fully formatted Excel report with multiple summary sheets and a text-based analysis.
 
 ---
 
 ## ✅ Key Features
 
-* **Data Cleaning:**
-    * Standardizes customer names to `Title Case`.
-    * Removes all duplicate transactions.
-    * Fills missing values in the 'Notes' column with `No notes`.
-    * Validates 'Amount' data, ensuring it is numeric and removing invalid (0 or negative) entries.
-    * Converts all 'Date' entries to a consistent format.
-* **Data Analysis:**
-    * Generates a high-level financial summary (Total Sales, Avg. Sale, etc.).
-    * Creates a pivot table for **Category Summary** (Total Sales, Avg. Sale, Count).
-    * Creates a pivot table for **Customer Summary** (Total Spent, Purchases).
-    * Creates a **Daily Report** (Total Sales, Count per day).
-* **Professional Output:**
-    1.  **`cleaned_sales_data.xlsx`:** A multi-sheet Excel file containing:
-        * `Cleaned Data`: The full, clean dataset.
-        * `Category Summary`: Pivot table of sales by category.
-        * `Customer Summary`: Pivot table of sales by customer.
-        * `Daily Report`: Pivot table of sales by date.
-    2.  **`sales_report.txt`:** A text file with a timestamped summary of all findings.
+### 🔹 Data Cleaning
+
+* Converts customer names to **Title Case**
+* Removes duplicate records
+* Fills missing entries in the *Notes* column with `"No notes"`
+* Validates and filters out invalid (0 or negative) *Amount* values
+* Standardizes *Date* formats across all records
+
+### 🔹 Data Analysis
+
+* Creates a **Financial Summary** (Total Sales, Average Sale, etc.)
+* Generates pivot-based **Category Summary** (Sales by Category)
+* Builds **Customer Summary** (Total Spent per Customer)
+* Produces **Daily Report** (Sales by Date)
+
+### 🔹 Output Files
+
+1. **`cleaned_sales_data.xlsx`** – A professional Excel file with multiple sheets:
+
+   * *Cleaned Data*
+   * *Category Summary*
+   * *Customer Summary*
+   * *Daily Report*
+2. **`sales_report.txt`** – A timestamped text summary of the key metrics.
 
 ---
 
 ## 🛠️ Tech Stack
-* **Python**
-* **pandas** (For data loading, manipulation, and analysis)
-* **xlsxwriter** (For creating the multi-sheet Excel report)
+
+* **Python 3.x**
+* **pandas** – Data manipulation and analysis
+* **xlsxwriter** – Excel report generation
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Setup Instructions
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Ashi000/Sales_Data_Automation.git](https://github.com/Ashi000/Sales_Data_Automation.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Add your data:**
-    * Place your raw sales file in the folder and name it `raw_sales_data.xlsx`.
-    * *(A sample `raw_sales_data.xlsx` is included for testing.)*
-4.  **Run the script:**
-    ```bash
-    python sales_automation.py
-    ```
-5.  **Check the output:**
-    * `cleaned_sales_data.xlsx`
-    * `sales_report.txt`
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ashi000/Sales_Data_Automation.git
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Add Raw Data
+
+Place your Excel file named `raw_sales_data.xlsx` in the project folder.
+*(A sample dataset is already included for testing.)*
+
+### 4. Run the Script
+
+```bash
+python sales_automation.py
+```
+
+### 5. Review Outputs
+
+After execution, the following files are generated automatically:
+
+* `cleaned_sales_data.xlsx`
+* `sales_report.txt`
 
 ---
 
 ## 📄 License
-This project is licensed under the **MIT License**.
+
+This project is licensed under the **MIT License** — free for personal and commercial use with proper attribution.
 
 ---
 
 ## 👤 Author
 
-**Ashi**
+**Ashi Hussain**
+
 * **GitHub:** [@Ashi000](https://github.com/Ashi000)
 * **LinkedIn:** [ashiq-mari-5abb33277](https://www.linkedin.com/in/ashiq-mari-5abb33277)
+
+---
+
+
