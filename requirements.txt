@@ -1,0 +1,29 @@
+✅ **Libraries Mentioned (Correct & Appropriate):**
+Both libraries — **Pandas** and **XlsxWriter** — are **correct** and essential for a Sales Data Automation Script.
+
+
+ 📘 **1. Pandas**
+
+**Purpose:**
+Used for reading, cleaning, and analyzing Excel data.
+
+**Main Tasks:**
+
+* Read raw sales data (`raw_sales_data.xlsx`)
+* Remove duplicates, fill missing values
+* Validate data (e.g., sales amounts)
+* Create summaries (like Category or Customer Summary)
+
+
+
+ 📗 **2. XlsxWriter**
+
+**Purpose:**
+Used for writing clean and formatted Excel reports.
+
+**Main Tasks:**
+
+* Create final Excel file (`cleaned_sales_data.xlsx`)
+* Add multiple sheets (for data and summaries)
+* Save all cleaned and summary data neatly
+
